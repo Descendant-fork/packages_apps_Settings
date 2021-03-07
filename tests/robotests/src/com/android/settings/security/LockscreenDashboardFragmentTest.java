@@ -81,7 +81,6 @@ public class LockscreenDashboardFragmentTest {
     public void onAttach_alwaysOn_shouldInvokeSetters() {
         mTestFragment.onAttach(mContext);
         verify(controller).setConfig(any());
-        verify(controller).setCallback(any());
     }
 
     @Test
